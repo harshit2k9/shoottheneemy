@@ -135,9 +135,9 @@ window.addEventListener('load', function() {
   function drawGameOver() {
     ctx.textAlign = 'center';
     ctx.fillStyle = 'black';
-    ctx.fillText('GAME OVER, your score is ' + score, canvas.width / 2, canvas.height / 2);
+    ctx.fillText('GAME OVER, Your score is ' + score, canvas.width / 2, canvas.height / 2);
     ctx.fillStyle = 'white';
-    ctx.fillText('GAME OVER, your score is ' + score, canvas.width / 2 + 5, canvas.height / 2 + 5);
+    ctx.fillText('GAME OVER, Your score is ' + score, canvas.width / 2 + 5, canvas.height / 2 + 5);
 
     // Show restart button
     const restartButton = document.createElement('button');
