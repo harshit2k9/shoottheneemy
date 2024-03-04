@@ -144,7 +144,7 @@ window.addEventListener('load', function() {
     restartButton.textContent = 'Restart Game';
     restartButton.id = 'restartButton';
     restartButton.style.position = 'absolute';
-    restartButton.style.top = '50%';
+    restartButton.style.top = '80%';
     restartButton.style.left = '50%';
     restartButton.style.transform = 'translate(-50%, -50%)';
     restartButton.style.padding = '10px 20px';
